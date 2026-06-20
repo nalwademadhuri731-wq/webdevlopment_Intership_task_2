@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Madhuri Nalwade | Full Stack Developer & Accessibility Advocate</title>
+  <meta name="description" content="Explore the professional portfolio of Madhuri Nalwade, a Full Stack Developer specializing in semantic HTML5, WCAG accessibility, and premium UI designs.">
+  <meta name="keywords" content="Madhuri Nalwade, Full Stack Developer, Software Engineer, Web Accessibility, Semantic HTML, Portfolio, React, Node.js">
+  <meta name="author" content="Madhuri Nalwade">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://madhurinalwade.dev/">
+  <meta property="og:title" content="Madhuri Nalwade | Full Stack Developer Portfolio">
+  <meta property="og:description" content="Explore the professional portfolio of Madhuri Nalwade, a Full Stack Developer specializing in semantic HTML5, WCAG accessibility, and premium UI designs.">
+  <meta property="og:image" content="madhuri_portrait.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://madhurinalwade.dev/">
+  <meta property="twitter:title" content="Madhuri Nalwade | Full Stack Developer Portfolio">
+  <meta property="twitter:description" content="Explore the professional portfolio of Madhuri Nalwade, a Full Stack Developer specializing in semantic HTML5, WCAG accessibility, and premium UI designs.">
+  <meta property="twitter:image" content="madhuri_portrait.png">
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://madhurinalwade.dev/">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip Link to bypass main navigation for keyboard/screen reader accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Banner -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Madhuri Nalwade Home">
+        Madhuri<span class="logo-dot">.</span>
+      </a>
+      
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light theme" aria-live="polite">
+          <svg class="sun-icon" aria-hidden="true" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg>
+          <svg class="moon-icon" aria-hidden="true" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="display: none;">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          </svg>
+        </button>
+
+        <!-- Disclosure control for mobile navigation menu -->
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+          <span class="menu-toggle-text">Menu</span>
+        </button>
+      </div>
+
+      <!-- Primary Navigation -->
+      <nav id="main-nav" class="main-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Landmark -->
+  <main id="main-content" tabindex="-1">
+    <div class="container">
+      
+      <!-- Hero Section -->
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="hero-subtitle">Full Stack Developer</p>
+          <h1 id="hero-title">Building accessible and premium digital experiences.</h1>
+          <p class="hero-description">
+            I am a software engineer dedicated to crafting highly semantic, accessible, and performant web applications. Let's create user interfaces that are inclusive, beautiful, and intuitive.
+          </p>
+          <a href="projects.html" class="hero-cta" aria-label="View Madhuri's projects">
+            View My Work
+            <svg aria-hidden="true" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="hero-portrait">
+          <div class="portrait-frame">
+            <img src="madhuri_portrait.jpeg" alt="Professional portrait photograph of Madhuri Nalwade, smiling in a modern bright workspace.">
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me & Skills Section -->
+      <section class="about-section" aria-labelledby="about-heading">
+        <div class="about-bio-card glass-panel" id="about-bio">
+          <h2 id="about-heading">About Me</h2>
+          <p>
+            I specialize in developing high-quality frontend and backend systems, with a strong emphasis on writing code that complies with the Web Content Accessibility Guidelines (WCAG 2.1 AA/AAA) and SEO best practices.
+          </p>
+          <p>
+            My goal is to bridge the gap between stunning aesthetic design and robust technical implementation, ensuring that everyone, regardless of ability or device, has an equal and delightful web experience.
+          </p>
+        </div>
+
+        <div class="about-edu-card glass-panel" id="about-edu">
+          <h3 id="education-heading">Education & Training</h3>
+          <div class="timeline" role="list" aria-labelledby="education-heading">
+            <div class="timeline-item" role="listitem">
+              <h4 class="timeline-title">HSC</h4>
+              <span class="timeline-meta">Shivaji University | 2022 - 2024</span>
+              <p>Maharashtra State Board with distinction 87% in PCM</p>
+            </div>
+            <div class="timeline-item" role="listitem">
+              <h4 class="timeline-title">Pursuing B.Tech. in Computer Science</h4>
+              <span class="timeline-meta">RIT,Islampur | 2024 - 2028</span>
+              <p>Currently pursuing a Bachelor of Technology in Computer Science in 2nd year.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-block glass-panel" id="about-skills">
+          <h3 id="skills-heading">Skills & Technologies</h3>
+          <ul class="skills-list" aria-labelledby="skills-heading">
+            <li class="skill-item">HTML5 & CSS3</li>
+            <li class="skill-item">JavaScript (ES6+)</li>
+            <li class="skill-item">React & Next.js</li>
+            <li class="skill-item">Node.js & Express</li>
+            <li class="skill-item">Web Accessibility (a11y)</li>
+            <li class="skill-item">WCAG 2.1 Auditing</li>
+            <li class="skill-item">SQL & MongoDB</li>
+            <li class="skill-item">SEO Optimization</li>
+            <li class="skill-item">Git & CI/CD</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer Landmark -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <nav aria-label="Footer Navigation">
+        <ul class="social-links">
+          <li>
+            <a href="https://github.com" class="social-link" target="_blank" rel="noopener" aria-label="GitHub profile (opens in a new tab)">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn profile (opens in a new tab)">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">&copy; 2026 Madhuri Nalwade. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>

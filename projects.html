@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Projects | Madhuri Nalwade - Full Stack Portfolio</title>
+  <meta name="description" content="Browse the web development projects built by Madhuri Nalwade. Specializing in accessible design systems, clean code architectures, and user-centric layouts.">
+  <meta name="keywords" content="Madhuri Nalwade, Projects, Full Stack Development, React Projects, Web Accessibility, Portfolio Showcase">
+  <meta name="author" content="Madhuri Nalwade">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://madhurinalwade.dev/projects.html">
+  <meta property="og:title" content="Projects | Madhuri Nalwade - Full Stack Portfolio">
+  <meta property="og:description" content="Browse the web development projects built by Madhuri Nalwade. Specializing in accessible design systems, clean code architectures, and user-centric layouts.">
+  <meta property="og:image" content="madhuri_portrait.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://madhurinalwade.dev/projects.html">
+  <meta property="twitter:title" content="Projects | Madhuri Nalwade - Full Stack Portfolio">
+  <meta property="twitter:description" content="Browse the web development projects built by Madhuri Nalwade. Specializing in accessible design systems, clean code architectures, and user-centric layouts.">
+  <meta property="twitter:image" content="madhuri_portrait.png">
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://madhurinalwade.dev/projects.html">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Skip Link to bypass main navigation for keyboard/screen reader accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Banner -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Madhuri Nalwade Home">
+        Madhuri<span class="logo-dot">.</span>
+      </a>
+      
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light theme" aria-live="polite">
+          <svg class="sun-icon" aria-hidden="true" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg>
+          <svg class="moon-icon" aria-hidden="true" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" style="display: none;">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          </svg>
+        </button>
+
+        <!-- Disclosure control for mobile navigation menu -->
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation menu">
+          <span class="menu-toggle-text">Menu</span>
+        </button>
+      </div>
+
+      <!-- Primary Navigation -->
+      <nav id="main-nav" class="main-nav" aria-label="Primary Navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Landmark -->
+  <main id="main-content" tabindex="-1">
+    <div class="container">
+      
+      <!-- Page Header -->
+      <section aria-labelledby="page-title">
+        <h1 id="page-title">Selected Projects</h1>
+        <p class="hero-description">
+          A showcase of recent software applications I've built, emphasizing robust programming, accessible user flows, and responsive design systems.
+        </p>
+      </section>
+
+      <!-- Projects Grid Layout -->
+      <section aria-label="Projects Showcase Grid">
+        <div class="projects-grid">
+          
+          <!-- Project 1 Card -->
+         <article class="project-card" aria-labelledby="proj-title-1">
+
+    <ul
+        class="project-tags"
+        aria-label="Technologies used in Personal Portfolio Website">
+
+        <li class="project-tag">HTML5</li>
+
+        <li class="project-tag">CSS3</li>
+
+        <li class="project-tag">Accessibility</li>
+
+        <li class="project-tag">Responsive Design</li>
+
+    </ul>
+
+    <h2 id="proj-title-1">
+        Personal Portfolio Website
+    </h2>
+
+    <p
+        class="project-desc"
+        id="proj-desc-1">
+
+        A fully responsive and accessible personal portfolio website
+        developed using semantic HTML5 and modern CSS techniques.
+        The project follows WCAG accessibility guidelines, includes
+        keyboard navigation support, SEO-friendly meta tags,
+        and responsive layouts for different screen sizes.
+
+    </p>
+
+    <div class="project-links">
+
+        <a
+            href="https://github.com/yourusername"
+            class="project-link"
+            aria-describedby="proj-title-1"
+            target="_blank"
+            rel="noopener">
+
+            View Code
+
+            <span class="sr-only">
+                (opens in new tab)
+            </span>
+
+        </a>
+
+        <a
+            href="#"
+            class="project-link"
+            aria-describedby="proj-title-1">
+
+            Live Demo
+
+        </a>
+
+    </div>
+
+</article>
+
+          <!-- Project 2 Card -->
+          <article class="project-card" aria-labelledby="proj-title-2">
+            <ul class="project-tags" aria-label="Technologies used in DevDock">
+              <li class="project-tag">Next.js</li>
+              <li class="project-tag">TypeScript</li>
+              <li class="project-tag">GraphQL</li>
+              <li class="project-tag">PostgreSQL</li>
+            </ul>
+            <h2 id="proj-title-2">DevDock Dashboard</h2>
+            <p class="project-desc" id="proj-desc-2">
+              A premium real-time monitoring dashboard for docker containers. Includes interactive, keyboard-navigable chart visualizations, real-time log streaming via WebSockets, and fully custom high-contrast focus styling for all interactive controls.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com" class="project-link" aria-describedby="proj-title-2" target="_blank" rel="noopener">
+                View Code <span class="sr-only">(opens in new tab)</span>
+              </a>
+              <a href="https://github.com" class="project-link" aria-describedby="proj-title-2" target="_blank" rel="noopener">
+                Live Demo <span class="sr-only">(opens in new tab)</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 Card -->
+         <article class="project-card" aria-labelledby="proj-title-3">
+    <ul
+        class="project-tags"
+        aria-label="Technologies used in Algorithm Visualizer">
+        <li class="project-tag">HTML5</li>
+        <li class="project-tag">CSS3</li>
+        <li class="project-tag">JavaScript</li>
+        <li class="project-tag">Data Structures</li>
+    </ul>
+    <h2 id="proj-title-3">
+        Algorithm Visualizer
+    </h2>
+    <p
+        class="project-desc"
+        id="proj-desc-3">
+        An interactive algorithm visualizer designed to help users
+        understand sorting and searching algorithms through real-time
+        animations. The project demonstrates algorithms such as
+        Bubble Sort, Selection Sort, Linear Search, and Binary Search
+        with responsive UI components and keyboard-accessible controls.
+    </p>
+    <div class="project-links">
+        <a
+            href="https://github.com/yourusername"
+            class="project-link"
+            aria-describedby="proj-title-3"
+            target="_blank"
+            rel="noopener">
+            View Code
+            <span class="sr-only">
+                (opens in new tab)
+            </span>
+        </a>
+        <a
+            href="#"
+            class="project-link"
+            aria-describedby="proj-title-3">
+            Live Demo
+        </a>
+    </div>
+</article>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer Landmark -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <nav aria-label="Footer Navigation">
+        <ul class="social-links">
+          <li>
+            <a href="https://github.com" class="social-link" target="_blank" rel="noopener" aria-label="GitHub profile (opens in a new tab)">
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn profile (opens in a new tab)">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer-copyright">&copy; 2026 Madhuri Nalwade. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
